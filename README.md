@@ -1,21 +1,21 @@
-# vue-pdf-useinvite
+# vue-component-vite
 
-此项目为 vitejs vuejs3 pdfjs-dist pdf-lib 库, 一起构建的组件
+此项目为 vitejs vuejs3 库, 一起构建的组件
 
-This project is for the vitejs vuejs3 pdfjs-dist pdf-lib library, built together with the components
+This project is for the vitejs vuejs3 library, built together with the components
 
 ## npm / yarn 安装
 
 ```bash
-npm i @lanseria/vue-pdf-vite
+npm i @lanseria/vue-component-vite
 
-yarn add @lanseria/vue-pdf-vite
+yarn add @lanseria/vue-component-vite
 ```
 
-## 引入 @lanseria/vue-pdf-vite
+## 引入 @lanseria/vue-component-vite
 
 ```js
-import "@lanseria/vue-pdf-vite/style.css";
+import "@lanseria/vue-component-vite/style.css";
 ```
 
 ```vue
@@ -27,8 +27,8 @@ import "@lanseria/vue-pdf-vite/style.css";
 
 <script lang="ts">
 import { defineComponent } from "vue";
-import { PdfEditor } from "@lanseria/vue-pdf-vite";
-// import { PdfViewer } from "@lanseria/vue-pdf-vite";
+import { PdfEditor } from "@lanseria/vue-component-vite";
+// import { PdfViewer } from "@lanseria/vue-component-vite";
 
 export default defineComponent({
   name: "App",
